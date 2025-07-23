@@ -1,9 +1,13 @@
 local script = [[
-    loadstring(game:HttpGet("https://xaphy.io/load/loader/fasthatch/", true))()
+    wait(1)
     loadstring(game:HttpGet("https://xaphy.io/load", true))()
+    wait(1)
+    loadstring(game:HttpGet("https://xaphy.io/load/loader/fasthatch/", true))()
 ]]
 
 queue_on_teleport(script)
 
-loadstring(game:HttpGet("https://xaphy.io/load/loader/fasthatch/", true))()
+wait(1)
 loadstring(game:HttpGet("https://xaphy.io/load", true))()
+wait(1)
+loadstring(game:HttpGet("https://xaphy.io/load/loader/fasthatch/", true))()
